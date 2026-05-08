@@ -1,0 +1,19 @@
+schema: '2.0'
+stages:
+  process_data:
+    cmd: C:\Users\HP\AppData\Local\Programs\Python\Python314\python.exe 
+      process_data.py
+    deps:
+    - path: data/sample.csv
+      hash: md5
+      md5: 27a33495a1c74f6ed042754fbb61cb64
+      size: 109
+    - path: process_data.py
+      hash: md5
+      md5: aba34fddd4d24dbf97bb1cb766c4d4c9
+      size: 407
+    outs:
+    - path: processed.csv
+      hash: md5
+      md5: 78e25bea2d672e40c2d760bbcd0d4983
+      size: 83

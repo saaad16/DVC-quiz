@@ -1,0 +1,9 @@
+stages:
+  process_data:
+    cmd: C:\Users\HP\AppData\Local\Programs\Python\Python314\python.exe 
+      process_data.py
+    deps:
+    - data/sample.csv
+    - process_data.py
+    outs:
+    - processed.csv

@@ -1,0 +1,4 @@
+[core]
+    remote = myremote
+['remote "myremote"']
+    url = D:/semister 8/ML_OPS/DVC online quiz/remote_storage
